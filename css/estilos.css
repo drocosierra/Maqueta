@@ -1,0 +1,305 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300);
+
+html { font-size: 62.5%; }
+body{
+	background: url(../images/fondo_wrapper_top_header.png) repeat;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+h1{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 300;
+	border-bottom: 1px solid #d3d3d3;
+}
+h2{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 2.5rem;
+}
+.center{
+	text-align: center;
+}
+
+/* LOGIN */
+.form_login{
+    background: rgba(238, 238, 238, 0.7);
+	width: 400px;
+	margin: 60px auto 0;
+	padding: 0 10px 25px;
+	border: 2px solid #d3d3d3;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.form_login .logo_chilectra{
+	margin: 90px 0 0 0;
+}
+
+/* HEADER */
+.wrapper_top_header{
+	background: url(../images/fondo_wrapper_top_header.png) repeat;
+	width: 100%;
+}
+.top_header{
+	background: url(../images/fondo_top_header.png) no-repeat; 
+	width: 1050px;
+	height: 170px;
+	margin: 0 auto;
+}
+.wrapper_header{
+	background: white;
+	padding: 5px 0;
+	border-top: 4px solid #0d4c93;
+	border-bottom: 4px solid #0d4c93;
+}
+.header{
+	width: 920px;
+	margin: 0 auto;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.logo_chilectra{
+	background: url(../images/logo_chilectra.jpg) no-repeat;
+	width: 104px;
+	height: 102px;
+	float: left;
+	margin: 35px 0 0 90px;
+	display: block;
+}
+.menu, .menu-top{
+	list-style: none;
+	margin-bottom: 0;
+}
+.menu-top li{
+    float: left;
+    margin-right: 45px;
+}
+.menu-top li a{
+    color: #333;
+    font-size: 2.3rem;
+    font-weight: 300;
+    line-height: 60px;
+}
+.menu-top li .current{
+	text-decoration: underline;
+}
+.menu-top .dropdown{
+	margin-right: 0;
+}
+.dropdown-menu > li > a {
+    clear: both;
+    font-size: 1.8rem;
+    color: #333333;
+    display: block;
+    font-weight: normal;
+    line-height: 1.2;
+    padding: 3px 20px;
+    white-space: nowrap;
+}
+
+/* CONTENIDO */
+.contenido{
+	background: white;
+	width: 920px;
+	margin: 30px auto;
+	padding: 25px;
+	border: 1px solid #d3d3d3;
+}
+.table .glyphicon{
+	top: 2px;
+}
+.tfilas th{
+	width: 33%;
+}
+.form-ajax{
+	width: 400px;
+}
+.form-ajax .form-group{
+	margin: 0 0 15px;
+}
+#cboxLoadedContent{
+	padding: 15px;
+}
+#cboxLoadedContent h1{
+	margin-top: 0;
+}
+.ajax{
+	margin-right: 20px;
+}
+.tabla_acciones tbody{
+	font-size: 1.4rem;
+}
+
+
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
