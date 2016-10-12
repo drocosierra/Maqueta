@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sistema desarrollo organizacional</title>
+        
+        <meta name="author" content="Masconsultores.cl">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/colorbox.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <script src="js/modernizr.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		<div class="wrapper_top_header">
+			<div class="top_header">
+				<div class="logo_chilectra"></div>
+			</div>
+		</div>
+		<div class="wrapper_header">
+			<div class="header row">
+				<div class="col-md-7 col-md-offset-1">
+					<ul class="menu menu-top">
+						<li>
+							<a class="current" href="planes.html">Plan de acción</a>
+						</li>
+						<li>
+							<a href="reportes.html">Reportes</a>
+						</li>
+						<li class"last">
+							<a href="index.html">Clientes</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="menu-top pull-right">
+				      	<li class="dropdown">
+				        	<a role="button" data-toggle="dropdown" class="dropdown-toggle" href="#" id="menu-perfil">Usuario <b class="caret"></b></a>
+				        	<ul aria-labelledby="menu-perfil" class="dropdown-menu">
+				          		<li class="last"><a href="logout.html">Salir</a></li>
+				        	</ul>
+				      	</li>
+				    </ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="contenido">
+			<h1>Planes de acción</h1>
+			<br>
+			<a class="btn btn-default ajax" href="agregar_plan.html">
+			  	<span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar plan de acción
+			</a>
+			<br>
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th>
+							Plan de acción
+						</th>
+						<th>
+							Cliente
+						</th>
+						<th>
+							Encargado
+						</th>
+						<th>
+							Estado
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<a href="plan_de_accion.html">Gestión clima organizacional 1</a>
+						</td>
+						<td>
+							Cliente 1
+						</td>
+						<td>
+							Encargado 1
+						</td>
+						<td>
+							Revisión
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="plan_de_accion.html">Gestión clima organizacional 2</a>
+						</td>
+						<td>
+							Cliente 2
+						</td>
+						<td>
+							Encargado 2
+						</td>
+						<td>
+							Revisión
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="plan_de_accion.html">Gestión clima organizacional 3</a>
+						</td>
+						<td>
+							Cliente 3
+						</td>
+						<td>
+							Encargado 3
+						</td>
+						<td>
+							Revisión
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/modernizr.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.colorbox-min.js"></script>
+        <script src="js/cf.js"></script>
+        
+        <script>
+			$(document).ready(function(){
+				$(".ajax").colorbox();
+			});
+		</script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>

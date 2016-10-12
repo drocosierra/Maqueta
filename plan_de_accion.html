@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sistema desarrollo organizacional</title>
+        
+        <meta name="author" content="Masconsultores.cl">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/colorbox.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <script src="js/modernizr.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+		<div class="wrapper_top_header">
+			<div class="top_header">
+				<div class="logo_chilectra"></div>
+			</div>
+		</div>
+		<div class="wrapper_header">
+			<div class="header row">
+				<div class="col-md-7 col-md-offset-1">
+					<ul class="menu menu-top">
+						<li>
+							<a class="current" href="planes.html">Plan de acción</a>
+						</li>
+						<li>
+							<a href="reportes.html">Reportes</a>
+						</li>
+						<li class"last">
+							<a href="index.html">Clientes</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="menu-top pull-right">
+				      	<li class="dropdown">
+				        	<a role="button" data-toggle="dropdown" class="dropdown-toggle" href="#" id="menu-perfil">Usuario <b class="caret"></b></a>
+				        	<ul aria-labelledby="menu-perfil" class="dropdown-menu">
+				          		<li class="last"><a href="logout.html">Salir</a></li>
+				        	</ul>
+				      	</li>
+				    </ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="contenido">
+			<h1>Gestión de clima orzanizacional 1</h1>
+			<h2>Responsables</h2>
+			<a class="btn btn-default ajax" href="agregar_responsable.html">
+			  	<span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar responsable
+			</a>
+			<br>
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th>
+							Nombre
+						</th>
+						<th>
+							E-mail
+						</th>
+						<th>
+							Teléfono
+						</th>
+						<th class="center">
+							Acciones
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<a href="#">Contacto 1</a>
+						</td>
+						<td>
+							<a href="mailto:contact1@falso.cl">contact1@falso.cl</a>
+						</td>
+						<td>
+							123456789
+						</td>
+						<td class="center">
+							<a href="#"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Editar</a> - <a href="#"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Borrar</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#">Contacto 2</a>
+						</td>
+						<td>
+							<a href="mailto:contact1@falso.cl">contact2@falso.cl</a>
+						</td>
+						<td>
+							123456789
+						</td>
+						<td class="center">
+							<a href="#"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Editar</a> - <a href="#"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Borrar</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#">Contacto 3</a>
+						</td>
+						<td>
+							<a href="mailto:contact1@falso.cl">contact3@falso.cl</a>
+						</td>
+						<td>
+							123456789
+						</td>
+						<td class="center">
+							<a href="#"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Editar</a> - <a href="#"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Borrar</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<h2>Plan de acción</h2>
+			<a class="btn btn-default ajax pull-left" href="agregar_dimension.html">
+			  	<span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar dimensión
+			</a>
+			<a class="btn btn-default ajax pull-left" href="agregar_responsable.html">
+			  	<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Editar plan de acción
+			</a>
+			<a class="btn btn-default ajax pull-left" href="agregar_responsable.html">
+			  	<span class="glyphicon glyphicon-play" aria-hidden="true"></span> Enviar plan de acción
+			</a>
+			<a class="btn btn-default ajax pull-left" href="agregar_responsable.html">
+			  	<span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Validar plan de acción
+			</a>
+			<br>
+			<table class="table table-hover tabla_acciones">
+				<thead>
+					<tr>
+						<th>
+							Dimensión
+						</th>
+						<th>
+							Objetivo
+						</th>
+						<th>
+							Acciones a desarrollar
+						</th>
+						<th>
+							Indicador/meta
+						</th>
+						<th>
+							¿Quién desarrollará la acción?
+						</th>
+						<th>
+							Plazo
+						</th>
+						<th>
+							Avance
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							Comunicación
+						</td>
+						<td>
+							Informar y comprender los resultados desde el punto de vista de los trabajadores
+						</td>
+						<td>
+							"*Bajar los resultados de la encuesta de clima 2010 *Escuchar las opiniones de los trabajadores sobre los resultados 2010"
+						</td>
+						<td>
+							Número de reuniones realizadas	RRHH organiza y el  Coordinador realiza la bajda de resultados	15 de Julio
+						</td>
+						<td>
+							RRHH organiza y el  Coordinador realiza la bajda de resultados
+						</td>
+						<td>
+							15 de Julio
+						</td>
+						<td>
+							
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Calidad de vida laboral
+						</td>
+						<td>
+							Generar un Plan anual de vacaciones.
+						</td>
+						<td>
+							Establecer una mesa técnica de trabajo interna, entre RRHH y Coordinadores
+						</td>
+						<td>
+							Reuniones de Trabajo
+						</td>
+						<td>
+							Sub-gerente RR.HH.
+						</td>
+						<td>
+							29 de Julio
+						</td>
+						<td>
+							
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Desarrollo
+						</td>
+						<td>
+							
+						</td>
+						<td>
+							Certificación "Acreditación"  de Competencias Laborales
+						</td>
+						<td>
+							Taller realizado
+						</td>
+						<td>
+							RR.HH.
+						</td>
+						<td>
+							
+						</td>
+						<td>
+							
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Visión de la Supervisión
+						</td>
+						<td>
+							Alinear la visión de los mandos medios con el plan estratégico y visión corporativa
+						</td>
+						<td>
+							Programa de Formación en Liderazgo
+						</td>
+						<td>
+							Con la evaluación del factor en encuesta de clima laboral 2011
+						</td>
+						<td>
+							Subgerencia de RRHH
+						</td>
+						<td>
+							2010 -2011
+						</td>
+						<td>
+							
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Prevención de Riesgos
+						</td>
+						<td>
+							Disminuir la tasa de ocurrencia de dolencias músculo esuqléticas asociadas al trabajo
+						</td>
+						<td>
+							Programas preventivos: movimientos y posturas correctas para evitar lesiones
+						</td>
+						<td>
+							Ejecución del programa
+						</td>
+						<td>
+							Gerencia de Recursos <humanos></humanos>
+						</td>
+						<td>
+							2011
+						</td>
+						<td>
+							
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<small class="pull-right">Última modificación: 18-02-2015</small>
+			<h2>Bitácora</h2>
+			<a class="btn btn-default ajax" href="agregar_evento.html">
+			  	<span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar evento
+			</a>
+			<br>
+			<table class="table table-hover tabla_acciones">
+				<thead>
+					<tr>
+						<th>
+							Evento
+						</th>
+						<th>
+							Fecha
+						</th>
+						<th>
+							Archivo
+						</th>
+						<th>
+							Responsable
+						</th>
+						<th>
+							Observaciones
+						</th>
+						<th class="center">
+							Acciones
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							Minuta reunión
+						</td>
+						<td>
+							18-02-2015
+						</td>
+						<td>
+							Archivo
+						</td>
+						<td>
+							Masconsultores
+						</td>
+						<td>
+							Observaciones
+						</td>
+						<td class="center">
+							<a href="#"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Editar</a> - <a href="#"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Borrar</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Se envían sugerencias
+						</td>
+						<td>
+							18-02-2015
+						</td>
+						<td>
+							Archivo
+						</td>
+						<td>
+							Masconsultores
+						</td>
+						<td>
+							Observaciones
+						</td>
+						<td class="center">
+							<a href="#"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Editar</a> - <a href="#"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Borrar</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Se edita plan de acción
+						</td>
+						<td>
+							18-02-2015
+						</td>
+						<td>
+							Archivo
+						</td>
+						<td>
+							Encargado
+						</td>
+						<td>
+							Observaciones
+						</td>
+						<td class="center">
+							<a href="#"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Editar</a> - <a href="#"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Borrar</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+        <script src="js/modernizr.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.colorbox-min.js"></script>
+        <script src="js/jquery.bootstrap.wizard.min.js"></script>
+        <script src="js/cf.js"></script>
+        
+        <script>
+			$(document).ready(function(){
+				$(".ajax").colorbox();
+			});
+		</script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
